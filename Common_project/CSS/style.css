@@ -1,0 +1,31 @@
+body {
+    background-color: #037ac1; 
+    color: white; 
+}
+a.skip:focus{
+    background: white;
+    padding: 6px;
+}
+h1 {
+    font-size: 30px;
+    font-family: Georgia, Arial, sans-serif;
+    text-align: center;
+}
+h2 {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+h3 {
+    font-size: 18px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+p {
+    line-height: 2;
+  }
+li {
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
