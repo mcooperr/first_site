@@ -2,6 +2,10 @@ body {
     background-color: #037ac1; 
     color: white; 
 }
+a.skip:focus{
+    background: white;
+    padding: 6px;
+}
 h1 {
     font-size: 30px;
     font-family: Georgia, Arial, sans-serif;
