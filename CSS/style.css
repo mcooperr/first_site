@@ -83,36 +83,6 @@ li {
         }
     }
   }   
-  /* TABLET USERS */
-  /* Structurally change the site on a tablet device */
-@media only screen and (max-width: 768px) {
-  /* Modify the navigation */
-  nav ul {
-    flex-direction: column;
-  }
-
-  /* Adjust the main content */
-  main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-  }
-
-  /* Resize the images */
-  main img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-/* Interactively change the site on a tablet device */
-@media only screen and (max-width: 768px) {
-  /* Add hover effect on images */
-  main img:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
-  }
-}
 
 /* TABLET USERS */
 @media only screen and (max-width: 768px) {
