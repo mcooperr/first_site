@@ -1,10 +1,12 @@
 nav a:hover,
 nav a:focus {
   text-decoration: underline;
+  color: blue;
 }
 .skip a {
     position: absolute;
     top: -40px;
+    font-size: 20px;
   }
 .skip a:focus {
     top: 20px;
@@ -14,8 +16,8 @@ nav a:focus {
     color: blue;
   }
 body {
-    background-color: #037ac1; 
-    color: white; 
+    background-color: #E6E6DC;
+    color: #00628B;
 }
 a.skip:focus{
     background: white;
@@ -25,24 +27,57 @@ h1 {
     font-size: 30px;
     font-family: Georgia, Arial, sans-serif;
     text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
 }
 h2 {
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #769d97;
+    font-weight: bold;
+    text-decoration: underline;
 }
 h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-family: Georgia, Times, 'Times New Roman', serif;
-    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
 }
 p {
     line-height: 2;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-inline: 100px;
   }
 li {
+    margin-left: 20px;
+}
+ul.b {
     display: inline-block;
     margin-left: 50px;
+    font-size: 20px;
   }
+ul.a {
+    display:block;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 75px;
+    font-size: 35px;
+}
+span {
+    margin-left: 20px;
+}
+img {
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+figcaption {
+    margin-left: 20px;
+}
 
 /* MOBILE USERS: */
   @media screen and (max-width: 600px) {
