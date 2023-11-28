@@ -3,81 +3,121 @@ nav a:focus {
   text-decoration: underline;
   color: blue;
 }
-.skip a {
+#current {
+  font-weight: bold;
+  background-color:aliceblue;
+}
+/* navigation styling: */
+nav {
+  display: inline-flex;
+  text-align:center;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  border-right: 1px solid black;
+  padding: 0 10px;
+}
+nav ul li:last-child {
+  border-right: none;
+}
+/* .skip a {
     position: absolute;
     top: -40px;
     font-size: 20px;
-  }
-.skip a:focus {
+  } */
+/* .skip a:focus {
     top: 20px;
-  }
-*:focus {
-    outline: 2px solid blue;
-    color: blue;
-  }
-body {
-    background-color: #E6E6DC;
-    color: #00628B;
+  } */
+a.skip {
+  position: absolute;
+    top: -40px;
+    font-size: 20px;
 }
 a.skip:focus{
     background: white;
     padding: 6px;
+    top: 20px;
+}
+*:focus {
+  outline: 2px solid blue;
+  color: blue;
+}
+body {
+    background-color: #E6E6DC;
+    color: #00628B;
+    margin: 3%;
+    margin-top: 5%;
+    text-align: center;
 }
 h1 {
-    font-size: 30px;
+    font-size: 50px;
     font-family: Georgia, Arial, sans-serif;
     text-align: center;
-    margin-top: 20px;
     font-weight: bolder;
+    margin-top: 5%;
 }
 h2 {
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 20px;
     margin-top: 15px;
     color: #769d97;
     font-weight: bold;
     text-decoration: underline;
 }
-h3 {
+/* h3 {
     font-size: 20px;
     font-family: Georgia, Times, 'Times New Roman', serif;
     margin-top: 15px;
-    margin-left: 20px;
     text-align: center;
-}
+} */
 p {
     line-height: 2;
-    margin-left: 20px;
     margin-top: 10px;
-    padding-inline: 100px;
+    /* padding-inline: 100px; */
   }
-li {
+/* li {
     margin-left: 20px;
-}
+} */
 ul.b {
     display: inline-block;
-    margin-left: 50px;
     font-size: 20px;
   }
-ul.a {
-    display:block;
-    text-align: right;
-    margin-top: 10px;
-    margin-right: 75px;
-    font-size: 35px;
-}
-span {
+/* span {
     margin-left: 20px;
-}
+} */
 img {
-    margin-left: 20px;
     margin-top: 10px;
     border-radius: 15px;
 }
-figcaption {
-    margin-left: 20px;
+.image1 {
+  display: block;
+  margin: auto;
 }
+.background {
+  text-align: center;
+  font-size:25px;
+}
+hr {
+  color: #00628B;
+  size: 5px;
+  border-style: inset;
+  border-width: 1px;
+}
+/* .main_img {
+  display: block;
+  margin: auto;
+  width: 400px;
+} */
+/* figcaption {
+    margin-left: 20px;
+} */
 
 /* MOBILE USERS: */
   @media screen and (max-width: 600px) {
