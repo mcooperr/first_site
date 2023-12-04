@@ -30,14 +30,6 @@ nav ul li {
 nav ul li:last-child {
   border-right: none;
 }
-/* .skip a {
-    position: absolute;
-    top: -40px;
-    font-size: 20px;
-  } */
-/* .skip a:focus {
-    top: 20px;
-  } */
 a.skip {
   position: absolute;
     top: -40px;
@@ -70,31 +62,18 @@ h2 {
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 15px;
-    color: #769d97;
     font-weight: bold;
     text-decoration: underline;
 }
-/* h3 {
-    font-size: 20px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    margin-top: 15px;
-    text-align: center;
-} */
 p {
     line-height: 2;
     margin-top: 10px;
-    /* padding-inline: 100px; */
+    font-family: 'Roboto Condensed';
   }
-/* li {
-    margin-left: 20px;
-} */
 ul.b {
     display: inline-block;
     font-size: 20px;
   }
-/* span {
-    margin-left: 20px;
-} */
 img {
     margin-top: 10px;
     border-radius: 15px;
@@ -118,14 +97,30 @@ hr {
   border-style: inset;
   border-width: 1px;
 }
-/* .main_img {
-  display: block;
-  margin: auto;
-  width: 400px;
-} */
-/* figcaption {
-    margin-left: 20px;
-} */
+#topSection {
+  font-size: 150%;
+}
+/* styling pet photos */
+.pet_photos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  align-items: end;
+}
+
+.pet_photos img {
+  width: 80%;
+  height: auto;
+  /* object-fit: cover; */
+}
+/* styling the food photos */
+.food_photos {
+  display: grid;
+  grid-template-columns:auto auto;
+  justify-content: center;
+  gap: 5px;
+}
+
 
 /* MOBILE USERS: */
   @media screen and (max-width: 600px) {
